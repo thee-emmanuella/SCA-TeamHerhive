@@ -11,15 +11,13 @@ Give people or victims the opportunity to share their experiences.
 Provides help to victims from South Sahara Social Development Organization (SSDO)
 It also provides language preferences. Those that don't understand english or prefer other languages can choose between Igbo, Hausa and Igbo.
 
-## Technologies used and why
+## Technologies
 
 - React: A JavaScript-based user interface development library. We used this library to put our project together.
 - Bootstrap: a free, open source front-end development framework for building websites and web apps. This technology was used to style components and make our website responsive.
-  Cascading Style Sheet (CSS): is used to style web pages. This technology was used to style the components.
-- Figma: Figma is an online UI tool for creating, collaborating, and prototyping. To build our website, we used the Figma tool and the designs created by our UI/UX designer. See the design [here] []
-- Netlify: Netlify is a cloud computing company that provides a development platform for web applications that includes build, deploy, and serverless backend services. This cloud technology was used to deploy our website. See the website [here][]
-- Mailto: It is used on websites to create hyperlinks that allow users to send an email to a specific address. We used this URL scheme to allow users to send emails to the email address listed on the ‘Contact Us’ page.
-- Emailjs: EmailJs is a platform for sending and receiving emails without the use of a backend. After completing the form on our ‘Contact Us’ page, clicking the ‘Send’ button sends the information to a specified email address.
+- Cascading Style Sheet (CSS): is used to style web pages. This technology was used to style the components.
+- Figma: Figma is an online UI tool for creating, collaborating, and prototyping. To build our website, we used the Figma tool and the designs created by our UI/UX designer. See the design [here]()
+- Netlify: Netlify is a cloud computing company that provides a development platform for web applications that includes build, deploy, and serverless backend services. This cloud technology was used to deploy our website. See the website [here](https://aidryse.netlify.app/)
 
 # How to Install and Run the Project
 
@@ -29,7 +27,3 @@ It also provides language preferences. Those that don't understand english or pr
 `Index.html` is the home page
 `src\assets` contains the images
 `src\style` contains the design for the project
-
-# Collaborators
-
-#
