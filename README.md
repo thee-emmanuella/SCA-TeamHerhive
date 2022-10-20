@@ -2,14 +2,15 @@
 
 Aidryse is a platform for accessing audio information based on Gender Based Domestic Violence. This project is in collaboration with South Sahara Social Development Organization (SSDO). This project is focused on a section of their many projects. Aidryse is also a form of help to victims and people who to want to share their experiences to help others. The audio web application will also come in three different languages which are Yoruba, Hausa and Igbo including English.
 
-# DESCRIPTION
+## DESCRIPTION
 
 It contains sections that;
-Educates victims or people about Gender Based Violence.
-Encourages victims with relateable stories.
-Give people or victims the opportunity to share their experiences.
-Provides help to victims from South Sahara Social Development Organization (SSDO)
-It also provides language preferences. Those that don't understand english or prefer other languages can choose between Igbo, Hausa and Igbo.
+
+- Educates victims or people about Gender Based Violence.
+- Encourages victims with relateable stories.
+- Give people or victims the opportunity to share their experiences.
+- Provides help to victims from South Sahara Social Development Organization (SSDO)
+- It also provides language preferences. Those that don't understand english or prefer other languages can choose between Igbo, Hausa and Igbo.
 
 ## Technologies
 
@@ -24,6 +25,9 @@ It also provides language preferences. Those that don't understand english or pr
 # How to use the project
 
 `data.json` and `dataone.json` files contains contains the image paths and all the audio paths.
+
 `Index.html` is the home page
+
 `src\assets` contains the images
+
 `src\style` contains the design for the project
