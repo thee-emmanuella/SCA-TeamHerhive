@@ -3,7 +3,7 @@ import Home from './Components/Home'
 import Contact from './Components/Contact'
 import Stories from './Components/Stories'
 import About from './Components/About'
-import Audio from './Components/Audio'
+import Record from './Components/Record'
 import './style/All.css'
 import './style/About.css'
 import './style/Stories.css'
@@ -17,7 +17,7 @@ const App = () => {
           <Route exact path='/Contact' component={Contact} />
           <Route exact path='/Stories' component={Stories} />
           <Route exact path='/About' component={About} />
-          {/* <Route exact path='/Audio' component={Audio} /> */}
+          <Route exact path='/Record' component={Record} />
         </Switch>
       </div>
     </div>
