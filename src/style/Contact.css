@@ -1,0 +1,75 @@
+.maiin {
+  background: #cfc3e9;
+  box-shadow: 10px 10px 20px rgba(22, 27, 29, 0.25), -10px -10px 20px #fafbff;
+  border-radius: 10px;
+}
+.contactus {
+  font-weight: 700;
+  font-size: 25px;
+  line-height: 48px;
+  color: #573e8d;
+}
+.contactp {
+  font-weight: 300;
+  font-size: 18px;
+  line-height: 30px;
+  text-align: start;
+  color: #573e8d;
+}
+.submitbtn {
+  border: 1px solid #7651c5;
+  width: 100%;
+  background: #7651c5;
+  border-radius: 5px;
+  font-weight: 300;
+  font-size: 18px;
+  line-height: 30px;
+  color: #ffffff;
+}
+.flexbox2 {
+  background: #ffffff;
+  border-radius: 5px;
+}
+.mail,
+.tel,
+.contactflex {
+  text-align: start !important;
+  display: flex;
+}
+.flexicon {
+  color: #573e8d;
+  font-size: 25px;
+}
+.footlogo {
+  display: flex;
+  font-size: 25px;
+  color: #573e8d;
+}
+@media (min-width: 768px) {
+  .maiin {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-gap: 20px;
+  }
+}
+@media (min-width: 1024px) {
+  .contactus {
+    font-weight: 700;
+    font-size: 32px;
+    line-height: 48px;
+  }
+  .contactp {
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 30px;
+  }
+  .footlogo,
+  .flexicon {
+    font-size: 30px;
+  }
+  .submitbtn {
+    font-weight: 700;
+    font-size: 30px;
+    line-height: 45px;
+  }
+}
