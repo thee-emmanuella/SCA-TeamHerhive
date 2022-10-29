@@ -1,0 +1,113 @@
+.stories-mod {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.stories-art {
+  border: 1px solid #cfc3e9;
+  background: #cfc3e9;
+  box-shadow: 10px 10px 20px rgba(22, 27, 29, 0.25), -10px -10px 20px #fafbff;
+}
+.stories-p {
+  font-weight: 700;
+  font-size: 25px;
+  line-height: 48px;
+  color: #573e8d;
+}
+.p-sv1 {
+  border: 1px solid var(--SecTwoBackground);
+  color: var(--SecTwoPtag);
+  background-color: var(--SecTwoBackground);
+  box-shadow: 10px 10px 20px rgba(22, 27, 29, 0.25), -10px -10px 20px #fafbff;
+  border-radius: 5px;
+  justify-content: space-between;
+}
+.stori-p {
+  text-align: start !important;
+}
+.icon-on1 {
+  font-size: 25px;
+}
+.submitbtn1 {
+  border: 1px solid #7651c5;
+  width: 100%;
+  background: #7651c5;
+  border-radius: 5px;
+  font-weight: 300;
+  font-size: 18px;
+  line-height: 30px;
+  color: #ffffff;
+}
+.linkkk {
+  color: #573e8d;
+}
+.linkkk:hover {
+  color: #573e8d;
+}
+.mod-content1 {
+  border: 1px solid var(--AudioBackground) !important;
+  background-color: var(--AudioBackground);
+}
+@media (min-width: 768px) {
+  .stories-art {
+    width: 600px;
+  }
+  .p-sv1 {
+    justify-content: space-between;
+  }
+  .icon-on1 {
+    font-size: 30px;
+  }
+  .submitbtn1 {
+    border: 1px solid #7651c5;
+    width: 50%;
+    background: #7651c5;
+    border-radius: 5px;
+    font-weight: 300;
+    font-size: 18px;
+    line-height: 30px;
+    color: #ffffff;
+  }
+  .mod1 {
+    padding: 8rem !important;
+  }
+  .mod-content1 {
+    margin-top: -6rem;
+  }
+  .drpdownn {
+    transform: translateY(-4rem) !important;
+  }
+}
+@media (min-width: 1024px) {
+  .stories-art {
+    width: 1012px;
+  }
+  .stories-p {
+    font-weight: 700;
+    font-size: 32px;
+    line-height: 48px;
+    color: #573e8d;
+  }
+  .icon-on1 {
+    font-size: 40px;
+  }
+  .submitbtn1 {
+    width: 707px;
+    height: 68px;
+    font-weight: 700;
+    font-size: 32px;
+    line-height: 48px;
+    color: #ffffff;
+  }
+  .mod-content1 {
+    margin-top: -6rem;
+    width: 500px;
+    height: 400px;
+  }
+  .drpdownn {
+    transform: translateY(-4rem) !important;
+  }
+  .audimgg {
+    width: 70%;
+  }
+}
