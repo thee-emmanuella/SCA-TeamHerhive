@@ -2,7 +2,6 @@
   display: flex;
   align-items: center;
   justify-content: center;
-  min-height: 100vh;
 }
 .stories-art {
   border: 1px solid #cfc3e9;
@@ -22,6 +21,9 @@
   box-shadow: 10px 10px 20px rgba(22, 27, 29, 0.25), -10px -10px 20px #fafbff;
   border-radius: 5px;
   justify-content: space-between;
+}
+.stori-p {
+  text-align: start !important;
 }
 .icon-on1 {
   font-size: 25px;
@@ -66,6 +68,15 @@
     line-height: 30px;
     color: #ffffff;
   }
+  .mod1 {
+    padding: 8rem !important;
+  }
+  .mod-content1 {
+    margin-top: -6rem;
+  }
+  .drpdownn {
+    transform: translateY(-4rem) !important;
+  }
 }
 @media (min-width: 1024px) {
   .stories-art {
@@ -87,5 +98,16 @@
     font-size: 32px;
     line-height: 48px;
     color: #ffffff;
+  }
+  .mod-content1 {
+    margin-top: -6rem;
+    width: 500px;
+    height: 400px;
+  }
+  .drpdownn {
+    transform: translateY(-4rem) !important;
+  }
+  .audimgg {
+    width: 70%;
   }
 }

@@ -10,17 +10,17 @@ const Stories = () => {
   return (
     <div>
       <Navbar />
-      <section className='stories-mod text-center p-4'>
+      <section className='stories-mod text-center p-3'>
         <div>
-          <article className='p-3 stories-art'>
+          <article className='p-4 stories-art'>
             <p className='stories-p text-capitalize mt-3'>
               stories of warriors
             </p>
             <article>
               {dataone.map((item, key) => (
                 <div key={key} className='mt-3 p-sv1 d-flex'>
-                  <p className='mt-2 p-eig'>{item.name}</p>
-                  <Link to='/Recordone' className='linkkk'>
+                  <p className='mt-2 p-eig stori-p ml-1 ml-md-2'>{item.name}</p>
+                  <Link to='/Recordone' className='linkkk ml-n1 ml-md-n4'>
                     <BiPlayCircle
                       className='icon-on1 mt-2'
                       onClick={() => setId(item.id)}

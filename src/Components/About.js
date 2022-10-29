@@ -1,6 +1,6 @@
 import React from 'react'
 import Navbar from './Navbar'
-import rec from '../assets/rec2.png'
+import rec24 from '../assets/rec24.png'
 
 const About = () => {
   return (
@@ -9,29 +9,44 @@ const About = () => {
       <main className='p-4'>
         <section className='mt-2 first-section p-3 p-md-5'>
           <div className='flex-1'>
-            <img src={rec} alt='' />
+            <img src={rec24} alt='' />
           </div>
           <article className='article-div'>
             <div className='flex1'>
               <h2 className='text-center'>About Us</h2>
               <p>
-                Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-                eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut
-                enim ad minim veniam, quis nostrud exercitation ullamco laboris
-                nisi ut aliquip ex ea commodo consequat.
-              </p>
-              <br />
-              <p>
-                Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-                eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut
-                enim ad minim veniam, quis nostrud exercitation ullamco laboris
-                nisi ut aliquip ex ea commodo consequat.
+                Aidryse is a platform for accessing audio information based on
+                Gender Based Domestic Violence. This project is in collaboration
+                with South Sahara Social Development Organization (SSDO). This
+                project is focused on a section of their many projects. Aidryse
+                is also a form of help to victims and people who to want to
+                share their experiences to help others. The audio web
+                application will also come in three different languages which
+                are Yoruba, Hausa and Igbo including English.
               </p>
             </div>
             <div className='flex-onee'>
-              <img src={rec} alt='' />
+              <img src={rec24} alt='' />
             </div>
           </article>
+        </section>
+        <section className='flexbox3 p-3 mt-4 mb-1  p-md-5'>
+          <h2 className='text-center flexbox3-h2'>
+            About The NGO We Are Collaborating With
+          </h2>
+          <p>
+            South Saharan Social Development Organization (SSDO) is a duly
+            registered non-profit organization in Nigeria, with a primary focus
+            of equipping women, youth and children with the social, health,
+            economic, educational and political skills needed to survive and
+            compete favorably in a vastly changing and urbanizing Sub-Saharan
+            Africa. <br />
+            The Sister Guardian Initiative (SGI) is an SSDO-funded project that
+            institutes community structures called SGI Chapter with a mandate to
+            provide survivor centered care to Violence against Women (VAW)
+            victims while advocating for institutional deterrence against the
+            practice in Southeast Nigeria.
+          </p>
         </section>
         <section className='mt-4 first-section p-3 p-md-5 article-div'>
           <div className='flex2'>
@@ -60,27 +75,6 @@ const About = () => {
               asperiores perferendis!
             </p>
           </div>
-        </section>
-        <section className='flexbox3 p-3 mt-4 mb-1  p-md-5'>
-          <p>
-            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eius
-            repellat blanditiis recusandae esse similique soluta. Commodi
-            adipisci quaerat optio quos ipsam. Reprehenderit laudantium veniam
-            eum dicta odit placeat sunt minima?Lorem ipsum dolor, sit amet
-            consectetur adipisicing elit. Eum repellat dolore doloremque, amet
-            non repellendus veniam culpa hic molestias expedita animi harum
-            adipisci recusandae quo sunt ad nulla minima voluptatibus!logo.
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Aliquam
-            harum quisquam labore possimus cum dicta accusantium est velit
-            tempore sequi laborum illum ex assumenda, nobis dolor fugit ut.
-            Tempore, corporis? Lorem ipsum dolor sit, amet consectetur
-            adipisicing elit. Vel ut obcaecati aliquid, sequi, est in incidunt
-            fugit totam labore esse iusto illo impedit sunt deserunt facere
-            debitis atque accusamus placeat. Lorem ipsum dolor sit amet
-            consectetur adipisicing elit. Voluptate nulla doloremque maxime!
-            Ipsam ducimus dolorem ut soluta. Impedit numquam quisquam nam
-            voluptas ab explicabo, alias, dolore doloribus quidem officiis sint.
-          </p>
         </section>
       </main>
     </div>

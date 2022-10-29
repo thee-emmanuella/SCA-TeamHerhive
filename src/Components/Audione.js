@@ -4,7 +4,7 @@ import 'react-h5-audio-player/lib/styles.css'
 import { AudioContext } from '../Contexts/AudioContext'
 
 const Audione = ({ item }) => {
-  const { dataone } = useContext(AudioContext)
+  const { dataone, yoruba, igbo, hausa, english } = useContext(AudioContext)
   const [trackIndex, setTrackIndex] = useState(item.id)
 
   const handleClickPrevious = () => {
@@ -20,12 +20,36 @@ const Audione = ({ item }) => {
   }
   return (
     <div>
-      <img className='audioimg' src={dataone[trackIndex].image} alt='' />
-      <p className='audiop'>{dataone[trackIndex].name}</p>
+      <img
+        className='audioimg audimgg'
+        src={dataone[trackIndex].image}
+        alt=''
+      />
+      <p className='audiop'>
+        {english === true
+          ? dataone[trackIndex].name
+          : igbo === true
+          ? dataone[trackIndex].nameigbo
+          : yoruba === true
+          ? dataone[trackIndex].nameyoruba
+          : hausa === true
+          ? dataone[trackIndex].namehausa
+          : dataone[trackIndex].name}
+      </p>
       <AudioPlayer
         className='audiolib mt-n3'
         // autoPlay
-        src={dataone[trackIndex].record}
+        src={
+          english === true
+            ? dataone[trackIndex].record
+            : igbo === true
+            ? dataone[trackIndex].igbo
+            : yoruba === true
+            ? dataone[trackIndex].yoruba
+            : hausa === true
+            ? dataone[trackIndex].hausa
+            : dataone[trackIndex].record
+        }
         onPlay={(e) => console.log('onPlay')}
         showSkipControls={true}
         showJumpControls={false}

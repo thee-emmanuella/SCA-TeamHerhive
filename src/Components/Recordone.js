@@ -6,11 +6,22 @@ import Navbar from './Navbar'
 import Audione from './Audione'
 
 const Recordone = () => {
-  const { dataone, id } = useContext(AudioContext)
+  const {
+    dataone,
+    id,
+    setYoruba,
+    yoruba,
+    setIgbo,
+    igbo,
+    setHausa,
+    hausa,
+    setEnglish,
+    english,
+  } = useContext(AudioContext)
   return (
     <div>
       <Navbar />
-      <section className='mod text-center p-4'>
+      <section className='mod mod1 text-center p-4'>
         <div className='mod-content1 p-4'>
           {dataone
             .filter((item) => {
@@ -29,6 +40,22 @@ const Recordone = () => {
             })}
         </div>
       </section>
+      <div className='dropdown text-center mt-1 dropdownn drpdownn mt-md-n5'>
+        <button
+          className='btn btn-secondary dropdown-toggle dropbutn'
+          type='button'
+          data-toggle='dropdown'
+          aria-expanded='false'
+        >
+          Select Language
+        </button>
+        <div className='dropdown-menu text-center dropmenu'>
+          <p onClick={() => setEnglish(!english)}>English</p>
+          <p onClick={() => setYoruba(!yoruba)}>Yoruba</p>
+          <p onClick={() => setIgbo(!igbo)}>Igbo</p>
+          <p onClick={() => setHausa(!hausa)}>Hausa</p>
+        </div>
+      </div>
     </div>
   )
 }
