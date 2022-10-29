@@ -1,16 +1,129 @@
 [
   {
     "id": 0,
-    "image": "https://res.cloudinary.com/sohmmie/image/upload/v1665945364/Rectangle_31_dbcmwg.png",
-    "name": "Here is a story of a warrior",
-    "record": "https://res.cloudinary.com/sohmmie/video/upload/v1666155813/Building_Awareness_xaslvr.mp3"    
+    "image": "https://res.cloudinary.com/sohmmie/image/upload/v1666981457/rec35_gwu1uw.png",
+    "name": "Here is a story of a survivor",
+    "nameigbo": "Nke a bụ akụkọ banyere onye lanarịrịnụ",
+    "nameyoruba": "Eyi ni itan ti olugbala kan",
+    "namehausa": "Ga labarin wanda ya tsira",
+    "record": "https://res.cloudinary.com/sohmmie/video/upload/v1667047074/Story_of_Blessing_a_beneficiary_of_SSDO_zge6e2_fifwmh.3gp",
+    "igbo": "https://res.cloudinary.com/sohmmie/video/upload/v1667069686/story_of_blessing_igbo_ygynuf.aac"
   },
   {
     "id": 1,
-    "image": "https://res.cloudinary.com/sohmmie/image/upload/v1665945348/rec2_pggag4.png",
-    "name": "what is sickle cell",
-    "record": "https://res.cloudinary.com/sohmmie/video/upload/v1666155773/Notice_and_Name_jr5gn7.mp3"
-    
+    "image": "https://res.cloudinary.com/sohmmie/image/upload/v1666981455/rec22_xxlbmb.png",
+    "name": "What is Gender Based Violence?",
+    "nameigbo": "Gịnị bụ ime ihe ike dabere na okike?",
+    "nameyoruba": "Kini Iwa-ipa Ti o Da lori abo?",
+    "namehausa": "Menene Rikicin Tushen Jinsi?",
+    "record": "https://res.cloudinary.com/sohmmie/video/upload/v1666978408/what_is_gender_based_violence_kth6xz.aac",
+    "yoruba": "https://res.cloudinary.com/sohmmie/video/upload/v1666997720/What_is_GBV_yoruba_gqyevl.mp3",
+    "igbo": "https://res.cloudinary.com/sohmmie/video/upload/v1666997242/what_is_gbv_igbo_ffihis.aac",
+    "hausa": "https://res.cloudinary.com/sohmmie/video/upload/v1666997242/what_is_gbv_igbo_ffihis.aac"
+  },
+  {
+    "id": 2,
+    "image": "https://res.cloudinary.com/sohmmie/image/upload/v1666981454/rec14_uvomgw.png",
+    "name": "Forms of Gender Based Violence",
+    "nameigbo": "Ụdị ime ihe ike dabere na okike",
+    "nameyoruba": "Awọn fọọmu ti iwa-ipa Da lori abo",
+    "namehausa": "Siffofin Rikicin Tushen Jinsi",
+    "record": "https://res.cloudinary.com/sohmmie/video/upload/v1666978409/forms_of_gender_based_violence_kyiqhn.aac",
+    "yoruba": "https://res.cloudinary.com/sohmmie/video/upload/v1666978409/forms_of_gender_based_violence_kyiqhn.aac",
+    "igbo": "https://res.cloudinary.com/sohmmie/video/upload/v1667001273/Forms_of_Gender_Based_Violence_igbo_xj99ls.aac"
+  },
+  {
+    "id": 3,
+    "image": "https://res.cloudinary.com/sohmmie/image/upload/v1666981455/rec16_spdeyc.png",
+    "name": "Solution to Gender Based Violence according to UNICEF",
+    "nameigbo": "Ngwọta maka ime ihe ike dabere na okike dịka UNICEF siri kwuo",
+    "nameyoruba": "Ojutu si Iwa-ipa ti o Da lori abo ni ibamu si UNICEF",
+    "namehausa": "Maganin Tashin Hannun Jinsi a cewar UNICEF",
+    "record": "https://res.cloudinary.com/sohmmie/video/upload/v1667047059/Solution_to_GBV_according_to_UNICEF_igftub_xrnpyb.3gp",
+    "yoruba": "https://res.cloudinary.com/sohmmie/video/upload/v1666991726/unicef-1_68GJJvcZ_phryls.mp3",
+    "igbo": "https://res.cloudinary.com/sohmmie/video/upload/v1667000661/Solution_to_gbv_according_to_UNICEF_igbo_fdmjv6.aac"
+  },
+  {
+    "id": 4,
+    "image": "https://res.cloudinary.com/sohmmie/image/upload/v1666981456/rec26_zxzovl.png",
+    "name": "Tackling Child Abuse and Sexual Harassment",
+    "nameigbo": "Ịnagide Mmekọahụ Ụmụaka na Mmegide Mmekọahụ",
+    "nameyoruba": "Koju ilokulo Ọmọ ati Ibalopo",
+    "namehausa": "Magance Cin Zarafin Yara da Cin Duri da Ilimin Jima'i",
+    "record": "https://res.cloudinary.com/sohmmie/video/upload/v1667047081/Tackling_Child_Abuse_and_Sexual_Harassment_igxg9i_capfrt.3gp"
+  },
+  {
+    "id": 5,
+    "image": "https://res.cloudinary.com/sohmmie/image/upload/v1666981455/rec23_fhrpnu.png",
+    "name": "The Need for the Child Protection Committee",
+    "nameigbo": "Mkpa maka Kọmitii Nchebe Ụmụaka",
+    "nameyoruba": "Nlo fun Igbimọ Idaabobo Awọn ọmọde",
+    "namehausa": "Bukatar Kwamitin Kare Yara",
+    "record": "https://res.cloudinary.com/sohmmie/video/upload/v1666978409/the_need_for_the_child_protection_w494kn.aac",
+    "igbo": "https://res.cloudinary.com/sohmmie/video/upload/v1667001653/The_Need_for_the_Child_Protection_Committee_igbo_mhykea.aac"
+  },
+  {
+    "id": 6,
+    "image": "https://res.cloudinary.com/sohmmie/image/upload/v1666981456/rec24_h23xdh.png",
+    "name": "Tips for Youth to Prevent Gender-Based Violence and Inequality",
+    "nameigbo": "Ndụmọdụ maka ndị ntorobịa iji gbochie ime ihe ike dabere na okike na enweghị ahaghị nhata",
+    "nameyoruba": "Awọn imọran fun Awọn ọdọ lati Dena Iwa-ipa ti O Da lori abo ati Aidogba",
+    "namehausa": "Nasiha ga Matasa don Hana cin zarafi da rashin daidaito tsakanin jinsi",
+    "record": "https://res.cloudinary.com/sohmmie/video/upload/v1666978409/tips_for_youth_to_prevent_gbv_gqoamz.aac",
+    "igbo": "https://res.cloudinary.com/sohmmie/video/upload/v1667001431/Tips_for_Youth_to_Prevent_Gender-Based_Violence_and_Inequality_igbo_h92y1u.aac"
+  },
+  {
+    "id": 7,
+    "image": "https://res.cloudinary.com/sohmmie/image/upload/v1666981457/rec32_ud8tf7.png",
+    "name": "Providing Safe Spaces for Survivors of Gender-Based Violence",
+    "nameigbo": "Inye oghere nchekwa maka ndị lanarịrị ime ihe ike dabere na okike",
+    "nameyoruba": "Pese Awọn aaye Ailewu fun Awọn olugbala ti Iwa-ipa Da lori abo",
+    "namehausa": "Samar da Wurare Lafiyayyu ga waɗanda suka tsira daga Rigimar Tushen Jinsi",
+    "record": "https://res.cloudinary.com/sohmmie/video/upload/v1667047075/Providing_Safe_Spaces_for_Survivors_of_GBV_e9hp7j_js6l38.3gp"
+  },
+  {
+    "id": 8,
+    "image": "https://res.cloudinary.com/sohmmie/image/upload/v1666981457/rec31_vqzscz.png",
+    "name": "Doesn’t sexual violence only happen to girls?",
+    "nameigbo": "Ime ihe ike ọ bụghị naanị ụmụ agbọghọ na-eme?",
+    "nameyoruba": "Ṣe iwa-ipa ibalopo ko ṣẹlẹ si awọn ọmọbirin nikan?",
+    "namehausa": "Shin ba za a yi lalata da 'yan mata kawai ba?",
+    "record": "https://res.cloudinary.com/sohmmie/video/upload/v1666874393/doesn_t_sexual_violence_only_happen_to_girls_dldzha.aac"
+  },
+  {
+    "id": 9,
+    "image": "https://res.cloudinary.com/sohmmie/image/upload/v1666981457/rec31_vqzscz.png",
+    "name": "What happens afterwards?",
+    "nameigbo": "Gịnị na-eme ma emechaa?",
+    "nameyoruba": "Kini yoo ṣẹlẹ lẹhinna?",
+    "namehausa": "Me zai faru bayan haka?",
+    "record": "https://res.cloudinary.com/sohmmie/video/upload/v1666981228/what_happens_afterwards_e1pic9.aac"
+  },
+  {
+    "id": 10,
+    "image": "https://res.cloudinary.com/sohmmie/image/upload/v1666981457/rec31_vqzscz.png",
+    "name": "Whose fault is it?",
+    "nameigbo": "Kedu onye kpatara ya?",
+    "nameyoruba": "Ẹ̀bi ta ni?",
+    "namehausa": "Laifin waye?",
+    "record": "https://res.cloudinary.com/sohmmie/video/upload/v1666874390/whose_fault_is_it_hrxft6.aac"
+  },
+  {
+    "id": 11,
+    "image": "https://res.cloudinary.com/sohmmie/image/upload/v1666981457/rec31_vqzscz.png",
+    "name": "Is there anything that can be done?",
+    "nameigbo": "Onwere ihe enwere ike ime?",
+    "nameyoruba": "Njẹ ohunkohun ti o le ṣee ṣe?",
+    "namehausa": "Shin akwai wani abu da za a iya yi?",
+    "record": "https://res.cloudinary.com/sohmmie/video/upload/v1666874385/is_there_anything_that_can_be_done_qrsmte.aac"
+  },
+  {
+    "id": 12,
+    "image": "https://res.cloudinary.com/sohmmie/image/upload/v1666981457/rec31_vqzscz.png",
+    "name": "16 Days of Activism against Gender-Based Violence runs from November 25 annually",
+    "nameigbo": "Ụbọchị 16 nke Mgbama megide ime ihe ike dabere na nwoke na nwanyị na-amalite na Nọvemba 25 kwa afọ",
+    "nameyoruba": "Awọn ọjọ 16 ti ijafafa lodi si iwa-ipa ti o da lori akọ tabi abo n ṣiṣẹ lati Oṣu kọkanla ọjọ 25 ni ọdọọdun",
+    "namehausa": "Kwanaki 16 na fafutukar yaƙi da cin zarafi na tushen jinsi yana gudana daga ranar 25 ga Nuwamba kowace shekara",
+    "record": "https://res.cloudinary.com/sohmmie/video/upload/v1667046303/16_days_of_activism_against_GBV_ex1csx_ryeemt.3gp"
   }
-  
 ]

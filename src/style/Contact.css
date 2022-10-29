@@ -45,6 +45,12 @@
   font-size: 25px;
   color: #573e8d;
 }
+.footlogoa {
+  color: #573e8d;
+}
+.footlogoa:hover {
+  color: #573e8d;
+}
 @media (min-width: 768px) {
   .maiin {
     display: grid;

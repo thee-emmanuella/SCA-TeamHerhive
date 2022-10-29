@@ -18,7 +18,6 @@
   box-sizing: border-box;
 }
 body {
-  border: 1px solid black;
   color: black;
   width: 100%;
   max-width: 1440px;
@@ -37,6 +36,10 @@ body {
 .navlinks {
   color: white;
 }
+.navlinks:hover {
+  color: white;
+  text-decoration: none;
+}
 .sec-one {
   color: white;
 }
@@ -44,20 +47,27 @@ body {
   width: 100%;
 }
 .div-one {
-  margin-top: -9rem;
+  margin-top: -8.2rem;
 }
 .p-one {
+  font-size: 16px;
+}
+.div-header {
+  border: 1px solid var(--ButtonColor);
+  margin: auto;
+  align-items: center;
+  justify-content: center;
+  background-color: var(--ButtonColor);
+  border-radius: 4px;
+  color: white;
+  width: 120px;
+  height: 30px;
+}
+.div-head-icon {
   font-size: 20px;
 }
 .p-two {
-  font-size: 12px;
-}
-.sec-one button {
-  border: 1px solid var(--ButtonColor);
-  background-color: var(--ButtonColor);
-  width: 8rem;
-  border-radius: 4px;
-  color: white;
+  font-size: 8px;
 }
 .sec-two {
   border: 1px solid var(--SecTwoBackground);
@@ -70,6 +80,8 @@ body {
 }
 .p-th {
   color: var(--SecTwoPtag);
+  font-size: 13px;
+  font-weight: 700;
 }
 .div-tw {
   border: 1px solid var(--ButtonColor);
@@ -83,9 +95,12 @@ body {
   font-size: 20px;
 }
 .sec-three {
+  color: #573e8d;
   background-color: var(--SecThreeBackground);
 }
 .p-fou {
+  font-size: 19px;
+  font-weight: 700;
   color: var(--SecTwoPtag);
 }
 .img-on {
@@ -99,6 +114,7 @@ body {
   display: none;
 }
 .articl {
+  color: #573e8d;
   border-radius: 10px;
 }
 .div-teo {
@@ -120,13 +136,17 @@ body {
   font-weight: 700;
   font-size: 18px;
 }
+.ssdop {
+  text-align: justify;
+  color: #573e8d;
+}
 .p-sv {
   border: 1px solid var(--SecTwoBackground);
   color: var(--SecTwoPtag);
   background-color: var(--SecTwoBackground);
   box-shadow: 10px 10px 20px rgba(22, 27, 29, 0.25), -10px -10px 20px #fafbff;
   border-radius: 5px;
-  justify-content: space-around;
+  justify-content: space-between;
 }
 .icon-on {
   font-size: 27px;
@@ -137,10 +157,12 @@ body {
   border-radius: 5px;
 }
 .p-sept {
-  font-size: 20px;
+  font-size: 21px;
+  font-weight: 700;
   color: var(--SecTwoPtag);
 }
 .pp-p {
+  font-size: 16px;
   color: var(--SecTwoPtag);
 }
 .buttn {
@@ -153,7 +175,11 @@ body {
 .butn {
   width: 12rem;
 }
-.modal {
+.p-sv {
+  font-size: 14px;
+  font-weight: 500;
+}
+/* .modal {
   position: fixed;
   left: 0;
   top: 0;
@@ -163,14 +189,13 @@ body {
   display: flex;
   align-items: center;
   justify-content: center;
-}
+} */
 .mod {
   display: flex;
   align-items: center;
   justify-content: center;
-  min-height: 100vh;
 }
-.modal-content {
+/* .modal-content {
   border: 1px solid var(--AudioBackground) !important;
   width: 545px;
   min-height: 50vh;
@@ -178,12 +203,37 @@ body {
   align-items: center;
   justify-content: center;
   background-color: var(--AudioBackground);
-}
+} */
 .mod-content {
   border: 1px solid var(--AudioBackground) !important;
   background-color: var(--AudioBackground);
 }
+.dropdownn {
+  transform: translateY(-1rem) !important;
+}
+.dropbutn {
+  border: 1px solid #7651c5 !important;
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 30px;
+  color: white;
+  width: 190px;
+  height: 44px;
+  background: #7651c5 !important;
+  border-radius: 5px;
+  cursor: pointer;
+}
+.dropmenu {
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 30px;
+  color: #573e8d;
+  cursor: pointer;
+}
 .linnk {
+  color: white;
+}
+.linnk:hover {
   color: white;
 }
 .arrow {
@@ -192,13 +242,12 @@ body {
   margin-left: -14.5rem !important;
 }
 .audioimg {
-  width: 250px;
-  height: 200px;
+  width: 100%;
 }
 .audiop {
   font-weight: 700;
   font-size: 20px;
-  line-height: 44px;
+  line-height: 30px;
   color: var(--SecTwoPtag);
 }
 .audiolib {
@@ -221,6 +270,9 @@ body {
 .rhap_additional-controls {
   color: var(--SecTwoPtag) !important;
 }
+.faqlink {
+  color: #573e8d;
+}
 
 @media (min-width: 768px) {
   .icon-one {
@@ -233,12 +285,19 @@ body {
     margin-top: -2rem;
   }
   .div-one {
-    margin-top: -16rem;
+    margin-top: -17rem;
   }
   .p-one {
     font-weight: 700;
-    font-size: 34px;
+    font-size: 35px;
     line-height: 36px;
+  }
+  .div-header {
+    width: 200px;
+    height: 40px;
+  }
+  .div-head-icon {
+    font-size: 25px;
   }
   .p-two {
     font-weight: 500;
@@ -252,9 +311,10 @@ body {
     height: 49px;
   }
   .div-mid {
-    margin-top: 6rem;
+    margin-top: 5rem;
   }
   .p-th {
+    margin-top: -1px !important;
     font-weight: 700;
     font-size: 20px;
     line-height: 26px;
@@ -274,7 +334,7 @@ body {
   }
   .p-fou {
     font-weight: 700;
-    font-size: 20px;
+    font-size: 24px;
     line-height: 26px;
   }
   .articl {
@@ -284,17 +344,38 @@ body {
   }
   .div-fiv-p {
     font-weight: 500;
-    font-size: 18px;
+    font-size: 16px;
     line-height: 26px;
     color: #573e8d;
+  }
+  .divv-fiv-pp {
+    line-height: 17.8px;
   }
   .div-teo {
     width: 8rem;
   }
   .p-sx {
     font-weight: 700;
-    font-size: 20px;
+    font-size: 24px;
     line-height: 26px;
+  }
+  .ssdop {
+    font-weight: 300;
+    font-size: 18px;
+    line-height: 30px;
+  }
+  .div-tteo {
+    width: 220px;
+    height: 45.78px;
+  }
+  .icoonn {
+    width: 28.68px;
+    height: 28.68px;
+  }
+  .divv-smal {
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 30px;
   }
   .image-one {
     display: none;
@@ -336,12 +417,23 @@ body {
     width: 16rem;
     height: 2.5rem;
   }
+  .p-sv {
+    font-size: 18px;
+    font-weight: 500;
+  }
   .modal-content {
     min-height: 80vh !important;
     width: 350px !important;
   }
   .mod-content {
     width: 360px !important;
+  }
+  .dropbutn {
+    font-weight: 700;
+    font-size: 22px;
+    line-height: 36px;
+    width: 200px;
+    height: 46px;
   }
 }
 @media (min-width: 1024px) {
@@ -363,6 +455,20 @@ body {
     font-size: 50px;
     line-height: 96px;
   }
+  .div-header {
+    border: 1px solid var(--ButtonColor);
+    width: 300px;
+    height: 50px;
+  }
+  .div-head-small {
+    font-weight: 700;
+    font-size: 24px !important;
+    line-height: 48px;
+  }
+  .div-head-icon {
+    width: 40px;
+    height: 40px;
+  }
   .p-two {
     font-weight: 500;
     font-size: 24px;
@@ -375,6 +481,7 @@ body {
     height: 56px;
   }
   .div-mid {
+    margin-top: 8rem !important;
     padding: 4rem !important;
   }
   .sec-two {
@@ -419,10 +526,35 @@ body {
     font-size: 24px;
     line-height: 36px;
   }
+  .divv-fiv-ppp {
+    line-height: 18px;
+  }
+  .ssdop {
+    font-weight: 300;
+    font-size: 25px;
+    line-height: 40px;
+    text-align: justify;
+  }
+  .ssdop p {
+    margin-top: 4rem;
+  }
   .div-teo {
     width: 173px;
     height: 36px;
     margin-top: -0.5rem !important;
+  }
+  .div-tteo {
+    width: 220px;
+    height: 45.78px;
+  }
+  .icoonn {
+    width: 30px !important;
+    height: 30px !important;
+  }
+  .divv-smal {
+    font-weight: 500;
+    font-size: 20px !important;
+    line-height: 30px !important;
   }
   .div-smal {
     font-weight: 500;
@@ -441,17 +573,23 @@ body {
     line-height: 48px;
   }
   .arrtticle {
-    margin-top: 2rem;
+    margin-top: 4rem !important;
   }
   .p-sv {
     width: 590px;
-    height: 70px;
+    height: 80px;
   }
   .p-eig {
-    margin-top: 1rem !important;
+    margin-top: 1.5rem !important;
     font-weight: 500;
     font-size: 22px;
     line-height: 33px;
+  }
+  .faqlink {
+    margin-top: 0.3rem !important;
+  }
+  .faqlink:hover {
+    color: #573e8d;
   }
   .icon-on {
     margin-top: 0.7rem !important;
@@ -487,7 +625,7 @@ body {
     margin-top: 1rem !important;
   }
   .butn {
-    margin-top: 2rem !important;
+    margin-top: 4rem !important;
     width: 594px;
     height: 82px;
     font-weight: 700;
@@ -501,14 +639,20 @@ body {
   .mod-content {
     width: 450px !important;
   }
+  .dropbutn {
+    font-weight: 700;
+    font-size: 22px;
+    line-height: 36px;
+    width: 213px;
+    height: 46px;
+  }
   .audioimg {
-    width: 401px;
-    height: 291px;
+    width: 100%;
   }
   .audiop {
     font-weight: 700;
     font-size: 28px;
-    line-height: 50px;
+    line-height: 40px;
   }
   .arrow {
     font-size: 25px;
