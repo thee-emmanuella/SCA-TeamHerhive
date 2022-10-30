@@ -37,6 +37,9 @@ It contains sections that;
 [Emmanuella Aguenu](https://github.com/thee-emmanuella) - Frontend developer
 
 [Chisom Chukwuma](https://github.com/DevZibah) - Frontend developer
+
 [Gloria Madubueze](https://github.com/Glorypaul-pixel) - Frontend developer
+
 [Amarachukwu Ani](https://github.com/amitech20) - Backend developer
+
 [Onyinyechi Isicheli]() - UI/UX designer
