@@ -17,7 +17,7 @@ It contains sections that;
 - React: A JavaScript-based user interface development library. We used this library to put our project together.
 - Bootstrap: a free, open source front-end development framework for building websites and web apps. This technology was used to style components and make our website responsive.
 - Cascading Style Sheet (CSS): is used to style web pages. This technology was used to style the components.
-- Figma: Figma is an online UI tool for creating, collaborating, and prototyping. To build our website, we used the Figma tool and the designs created by our UI/UX designer. See the design [here]()
+- Figma: Figma is an online UI tool for creating, collaborating, and prototyping. To build our website, we used the Figma tool and the designs created by our UI/UX designer. See the design [here](https://www.figma.com/file/TIu5Qiin1HmEDP6dxsnFmi/Shecode?node-id=0%3A1)
 - Netlify: Netlify is a cloud computing company that provides a development platform for web applications that includes build, deploy, and serverless backend services. This cloud technology was used to deploy our website. See the website [here](https://aidryse.netlify.app/)
 
 # How to Install and Run the Project
@@ -31,3 +31,12 @@ It contains sections that;
 `src\assets` contains the images
 
 `src\style` contains the design for the project
+
+## Collaborators
+
+[Emmanuella Aguenu](https://github.com/thee-emmanuella) - Frontend developer
+
+[Chisom Chukwuma](https://github.com/DevZibah) - Frontend developer
+[Gloria Madubueze](https://github.com/Glorypaul-pixel) - Frontend developer
+[Amarachukwu Ani](https://github.com/amitech20) - Backend developer
+[Onyinyechi Isicheli]() - UI/UX designer
