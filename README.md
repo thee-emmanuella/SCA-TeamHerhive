@@ -32,4 +32,4 @@ You can connect with us on twitter: [Emmanuella Aguenu](https://twitter.com/thee
 
 You can view our final project [here](https://aidryse.netlify.app/)
 
-<img src="src\assets\aidryse.jpg" alt="drawing" width="600" height="350" />
+<img src="src\assets\aidryse.jpg" alt="drawing" width="601" height="350" />
