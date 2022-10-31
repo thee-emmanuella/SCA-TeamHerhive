@@ -7,9 +7,9 @@ Victims, witnesses or anyone seeking information on Gender Base Violence, can vi
 ## Features
 
 - Learn about GBV - It enlightens users on the days of Activism against Gender Based Violence which runs annually.
-- Stories of Victims and Survivors - contains stories of those that were victims of GBV and also beneficials of South Sahara Social Development Organization (SSDO)
+- Stories of Victims and Survivors - contains stories of those that were victims of GBV and also beneficiaries of South Sahara Social Development Organization (SSDO)
 - Share your stories - Victims can share share their experiences here
-- Contact us - Users can reach out to us using this feature
+- Contact us - where users can reach out to us
 
 ## Tools/Techologies used
 
@@ -24,5 +24,12 @@ Victims, witnesses or anyone seeking information on Gender Base Violence, can vi
 For more information on the [project documentation and processes](https://link.medium.com/kocr7zzGyub)
 
 Aidryse is based on the open source reactjs javascript library, and more specifically on its realease 17.0.2. This version includes the main functionality needed for [aidryse.netlify.app](https://aidryse.netlify.app/)
+
+## The Team
+
+This project was worked on Team Herhives for the She Codes Africa Hackfest 2022.
+You can connect with us on twitter: [Emmanuella](), [Chisom](),[Onyinye](),[Amara]()
+
+You can view our final project [here](https://aidryse.netlify.app/)
 
 <img src="src\assets\aidryse.jpg" alt="drawing" width="150" height="280"/>
