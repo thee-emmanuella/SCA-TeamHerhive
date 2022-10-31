@@ -32,4 +32,4 @@ You can connect with us on twitter: [Emmanuella](), [Chisom](),[Onyinye](),[Amar
 
 You can view our final project [here](https://aidryse.netlify.app/)
 
-<img src="src\assets\aidryse.jpg" alt="drawing" width="700" height="280"/>
+<img src="src\assets\aidryse.jpg" alt="drawing" width="800" height="300"/>
