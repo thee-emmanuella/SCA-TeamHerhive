@@ -25,4 +25,4 @@ For more information on the [project documentation and processes](https://link.m
 
 Aidryse is based on the open source reactjs javascript library, and more specifically on its realease 17.0.2. This version includes the main functionality needed for [aidryse.netlify.app](https://aidryse.netlify.app/)
 
-<img src="src\assets\aidryse.jpg" alt="drawing"  width="200"/>
+<img src="src\assets\aidryse.jpg" alt="drawing"  width="500" style="text-align: center;"/>
