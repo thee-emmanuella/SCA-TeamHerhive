@@ -38,7 +38,7 @@ const Audione = ({ item }) => {
       </p>
       <AudioPlayer
         className='audiolib mt-n3'
-        // autoPlay
+        autoPlay
         src={
           english === true
             ? dataone[trackIndex].record

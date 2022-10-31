@@ -33,7 +33,8 @@
   box-shadow: 10px 10px 20px rgba(22, 27, 29, 0.25), -10px -10px 20px #fafbff;
   border-radius: 10px;
 }
-.article-div p, .flexbox3 p  {
+.article-div p,
+.flexbox3 p {
   text-align: justify;
 }
 .flexbox3-h2 {
@@ -56,7 +57,7 @@
   .article-div {
     display: grid;
     grid-template-columns: repeat(2, 1fr);
-    grid-gap: 15px;
+    grid-gap: 35px;
   }
   .flex1,
   .flex-2,

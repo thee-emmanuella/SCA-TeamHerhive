@@ -1,4 +1,4 @@
-import React, { useRef } from 'react'
+import React, { useEffect, useRef } from 'react'
 import Navbar from './Navbar'
 import { CgMail } from 'react-icons/cg'
 import { BsFillTelephoneFill } from 'react-icons/bs'
@@ -7,8 +7,13 @@ import { IoLogoFacebook } from 'react-icons/io'
 import { AiFillTwitterSquare } from 'react-icons/ai'
 import { IoLogoInstagram } from 'react-icons/io'
 import emailjs from '@emailjs/browser'
+import Aos from 'aos'
+import 'aos/dist/aos.css'
 
 const Contact = () => {
+  useEffect(() => {
+    Aos.init()
+  }, [])
   const form = useRef()
 
   const sendEmail = (e) => {
@@ -51,7 +56,13 @@ const Contact = () => {
               Feel free to contact us anytime
             </p>
             <form ref={form} onSubmit={sendEmail}>
-              <div className='form-group'>
+              <div
+                className='form-group'
+                data-aos='fade-up'
+                data-aos-offset='200'
+                data-aos-easing='ease-in-sine'
+                data-aos-duration='600'
+              >
                 <label htmlFor='exampleFormControlInput1' className='contactp'>
                   Name
                 </label>
@@ -63,7 +74,13 @@ const Contact = () => {
                   name='name'
                 />
               </div>
-              <div className='form-group'>
+              <div
+                className='form-group'
+                data-aos='fade-up'
+                data-aos-offset='200'
+                data-aos-easing='ease-in-sine'
+                data-aos-duration='600'
+              >
                 <label htmlFor='exampleFormControlInput1' className='contactp'>
                   Email address
                 </label>
@@ -75,7 +92,13 @@ const Contact = () => {
                   name='email'
                 />
               </div>
-              <div className='form-group'>
+              <div
+                className='form-group'
+                data-aos='fade-up'
+                data-aos-offset='200'
+                data-aos-easing='ease-in-sine'
+                data-aos-duration='600'
+              >
                 <label
                   htmlFor='exampleFormControlTextarea1'
                   className='contactp'
