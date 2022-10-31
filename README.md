@@ -15,13 +15,13 @@ Aidryse is based on the open source reactjs javascript library, and more specifi
 
 ## Tools/Techologies used
 
-React: A JavaScript-based user interface development library. We used this library to put our project together.
-Bootstrap: a free, open source front-end development framework for building websites and web apps.
-This technology was used to style components and make our website responsive.
-Cascading Style Sheet (CSS): is used to style web pages. This technology was used to style the components.
-Figma: Figma is an online UI tool for creating, collaborating, and prototyping. The figma file for this product can be found [here](https://www.figma.com/file/TIu5Qiin1HmEDP6dxsnFmi/Shecode?node-id=0%3A1)
-Mailto: It is used on websites to create hyperlinks that allow users to send an email to a specific address. We used this URL scheme to allow users to send emails to the email address listed on the ‘Contact Us’ page.
-Emailjs: EmailJs is a platform for sending and receiving emails without the use of a backend. After completing the form on our ‘Contact Us’ page, clicking the ‘Send’ button sends the information to a specified email address.
+- React: A JavaScript-based user interface development library. We used this library to put our project together.
+- Bootstrap: a free, open source front-end development framework for building websites and web apps.
+  This technology was used to style components and make our website responsive.
+- Cascading Style Sheet (CSS): is used to style web pages. This technology was used to style the components.
+- Figma: Figma is an online UI tool for creating, collaborating, and prototyping. The figma file for this product can be found [here](https://www.figma.com/file/TIu5Qiin1HmEDP6dxsnFmi/Shecode?node-id=0%3A1)
+- Mailto: It is used on websites to create hyperlinks that allow users to send an email to a specific address. We used this URL scheme to allow users to send emails to the email address listed on the ‘Contact Us’ page.
+- Emailjs: EmailJs is a platform for sending and receiving emails without the use of a backend. After completing the form on our ‘Contact Us’ page, clicking the ‘Send’ button sends the information to a specified email address.
 
 For more information on the [project documentation and processes](https://link.medium.com/kocr7zzGyub)
 
