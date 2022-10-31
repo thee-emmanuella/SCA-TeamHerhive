@@ -28,7 +28,7 @@ Aidryse is based on the open source reactjs javascript library, and more specifi
 ## The Team
 
 This project was worked on Team Herhives for the She Codes Africa Hackfest 2022.
-You can connect with us on twitter: [Emmanuella](https://twitter.com/thee_emmanuella), [Chi na-eso m](https://twitter.com/soh_mmee),[Onyiiibekee](https://twitter.com/Onyinyechukwu__), [Madubueze Gloria Ifeoma](https://twitter.com/Techk_e4ma), [Amara](https://twitter.com/Amie_gela)
+You can connect with us on twitter: [Emmanuella Aguenu](https://twitter.com/thee_emmanuella), [Chisom Chukwuma](https://twitter.com/soh_mmee),[Onyinyechi Isicheli](https://twitter.com/Onyinyechukwu__), [Madubueze Gloria Ifeoma](https://twitter.com/Techk_e4ma), [Amarachukwu Ani](https://twitter.com/Amie_gela)
 
 You can view our final project [here](https://aidryse.netlify.app/)
 
