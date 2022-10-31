@@ -1,4 +1,4 @@
-import React, { useContext, useState } from 'react'
+import React, { useContext, useEffect, useState } from 'react'
 import Navbar from './Navbar'
 import rec from '../assets/rec2.png'
 import rec14 from '../assets/rec14.png'
@@ -15,6 +15,8 @@ import { Link } from 'react-router-dom'
 import { BiPlayCircle } from 'react-icons/bi'
 import Audio from './Audio'
 import { AudioContext } from '../Contexts/AudioContext'
+import Aos from 'aos'
+import 'aos/dist/aos.css'
 
 const Home = () => {
   const [show, setShow] = useState(false)
@@ -35,12 +37,21 @@ const Home = () => {
     titleele,
     titletwe,
   } = useContext(AudioContext)
+  useEffect(() => {
+    Aos.init()
+  }, [])
   return (
     <div>
       <Navbar />
       <section className='sec-one text-center'>
         <img className='imgg-on' src={rec} alt='sec-image' />
-        <div className='div-one'>
+        <div
+          className='div-one'
+          data-aos='zoom-out-up'
+          data-aos-offset='200'
+          data-aos-easing='ease-out-cubic'
+          data-aos-duration='600'
+        >
           <p className='p-one'>
             All Violence is the Illustration of Pathetic Stereotype
           </p>
@@ -65,7 +76,13 @@ const Home = () => {
         </div>
       </section>
       <div className='p-3 div-mid p-md-4'>
-        <section className='sec-two d-flex p-2'>
+        <section
+          className='sec-two d-flex p-2'
+          data-aos='flip-up'
+          data-aos-offset='200'
+          data-aos-easing='linear'
+          data-aos-duration='500'
+        >
           <p className='p-th mt-1'>{title}</p>
           <Link to='/Record' className='linnk'>
             <div
@@ -86,7 +103,13 @@ const Home = () => {
       <section className='sec-three mt-2 p-3'>
         <p className='text-center p-fou mt-3'>About Gender Based Violence</p>
         <article className='articl'>
-          <div className='mt-md-4'>
+          <div
+            className='mt-md-4'
+            data-aos='flip-up'
+            data-aos-offset='200'
+            data-aos-easing='linear'
+            data-aos-duration='700'
+          >
             <img className='img-on' src={rec22} alt='rec31' />
             <div className='div-fiv text-center p-3'>
               <p className='mt-3 div-fiv-p'>{titleone}</p>
@@ -106,7 +129,13 @@ const Home = () => {
               </Link>
             </div>
           </div>
-          <div className=''>
+          <div
+            className=''
+            data-aos='flip-right'
+            data-aos-offset='200'
+            data-aos-easing='linear'
+            data-aos-duration='700'
+          >
             <img className='img-on mt-4' src={rec14} alt='rec22' />
             <div className='div-fiv text-center p-3'>
               <p className='mt-3 div-fiv-p'>{titletwo}</p>
@@ -125,7 +154,13 @@ const Home = () => {
               </Link>
             </div>
           </div>
-          <div className=''>
+          <div
+            className=''
+            data-aos='flip-up'
+            data-aos-offset='200'
+            data-aos-easing='linear'
+            data-aos-duration='700'
+          >
             <img className='img-on mt-4' src={rec16} alt='rec31' />
             <div className='div-fiv text-center p-3'>
               <p className='mt-3 div-fiv-p divv-fiv-ppp'>{titlethree}</p>
@@ -151,7 +186,13 @@ const Home = () => {
           Gender Based Violence (Child Abuse)
         </p>
         <article className='articl'>
-          <div className='mt-md-4'>
+          <div
+            className='mt-md-4'
+            data-aos='slide-up'
+            data-aos-offset='200'
+            data-aos-easing='linear'
+            data-aos-duration='600'
+          >
             <img className='img-on' src={rec26} alt='rec22' />
             <div className='div-fiv text-center p-3'>
               <p className='mt-3 div-fiv-p'>{titlefour}</p>
@@ -170,7 +211,13 @@ const Home = () => {
               </Link>
             </div>
           </div>
-          <div className=''>
+          <div
+            className=''
+            data-aos='slide-right'
+            data-aos-offset='200'
+            data-aos-easing='linear'
+            data-aos-duration='600'
+          >
             <img className='img-on mt-4' src={rec23} alt='rec22' />
             <div className='div-fiv text-center p-3'>
               <p className='mt-3 div-fiv-p'>{titlefive}</p>
@@ -189,7 +236,13 @@ const Home = () => {
               </Link>
             </div>
           </div>
-          <div className=''>
+          <div
+            className=''
+            data-aos='slide-up'
+            data-aos-offset='200'
+            data-aos-easing='linear'
+            data-aos-duration='600'
+          >
             <img className='img-on mt-4' src={rec24} alt='rec22' />
             <div className='div-fiv text-center p-3'>
               <p className='mt-3 div-fiv-p divv-fiv-pp'>{titlesix}</p>
