@@ -8,7 +8,7 @@ Victims, witnesses or anyone seeking information on Gender Base Violence, can vi
 
 - Learn about GBV - It enlightens users on the days of Activism against Gender Based Violence which runs annually.
 - Stories of Victims and Survivors - contains stories of those that were victims of GBV and also beneficiaries of South Sahara Social Development Organization (SSDO)
-- Share your stories - Victims can share share their experiences here
+- Share your stories - Victims can share share their experiences
 - Contact us - where users can reach out to us
 
 ## Tools/Techologies used
