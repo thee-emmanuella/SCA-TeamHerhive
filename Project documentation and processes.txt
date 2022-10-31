@@ -1,0 +1,148 @@
+PROJECT DOCUMENTATION
+PROJECT INTRODUCTION
+About the Project
+AidRyse is a platform for accessing audio information about Gender-Based Violence (GBV). This project is built by team Herhive in collaboration with South Saharan Social Development Organization (SSDO). It focuses on a section of their many projects (Gender-based violence). AidRyse aims to present help to victims of GBV and people who want to share their experiences to encourage and educate others. The audio web application will provide content in the three major Nigerian languages: Yoruba, Hausa and Igbo, and of course in English.
+
+PROJECT OBJECTIVES
+To create an audio web application where people can access information and help on Gender-Based Violence. To create a platform where victims can share their stories and consume the content in their local languages (Yoruba, Hausa and Igbo) and in English.
+PROJECT SCOPE
+AidRyse will provide a platform for accessing audio information about Gender-Based Violence (GBV) for victims and for people that need access to this information.
+
+PROJECT ROLES (TEAM)
+Emmanuella Aguenu - Frontend developer
+Chisom Chukwuma - Frontend developer
+Gloria Madubueze - Frontend developer
+Amarachukwu Ani - Backend developer
+Onyinyechi Isicheli - UI/UX designer
+
+ABOUT THE NGO WE ARE COLLABORATING WITH
+South Saharan Social Development Organization (SSDO) is a duly registered non-profit organization in Nigeria, with a primary focus of equipping women, youth and children with the social, health, economic, educational and political skills needed to survive and compete favorably in a vastly changing and urbanizing Sub-Saharan Africa.
+
+PROJECTS AREAS OF SOUTH SAHARAN SOCIAL DEVELOPMENT ORGANIZATION:
+•	Health
+•	Education
+•	Good governance
+•	Livelihood
+•	Gender
+
+OUR PROJECT KEY FOCUS
+Gender: Gender-Based Domestic Violence
+The Sister Guardian Initiative (SGI) is an SSDO-funded project that institutes community structures called SGI Chapters with a mandate to provide survivor-centered care to Violence against Women (VAW) victims while advocating for institutional deterrence against the practice in Southeastern Nigeria.
+These set of women are trained to provide a range of services to female victims of violence. The services include counseling, conflict resolution and mediation, provision of safe houses, and referrals to health and law enforcement agencies. They also routinely engage in community sensitization on VAW and community-based advocacy aimed at effecting the institutionalization of local policies and bye laws to deter acts of VAW.
+INSIGHTS
+We noticed that this project initiative does not cover male victims. On inquiry, the NGO explained that statistically, there are more female victims of GBV than there are male victims. So, we decided to create AidRyse with a focus on both male and female victims. Therefore, we will be providing information and solutions that would benefit both male and female victims in an audio format.
+
+COMMUNICATION PLATFORMS
+•	Google meet (for all meetings)
+•	WhatsApp (group chat)
+
+
+PROJECT PROCESS
+
+First Meeting (10th October 2022)
+We had a meeting after the orientation for the Hackfest and we discussed the project and made sure each member of the team understood the project.
+Agenda
+•	To map out a strategy or plan
+•	To get an NGO that will assist us in our project
+
+WhatsApp Discussion 
+We got a consultant that would link us to an NGO that we would be collaborating with. The next step was to set up a meeting with the consultant. 
+
+Second Meeting (11th October 2022)
+We had a meeting with the consultant, Mr. Wilfred who promised to link us with an NGO that we can work with. 
+Agenda of the meeting with Mr. Wilfred
+•	To figure out an area that we want to focus on, so that it can help us in the search for an NGO to work with.
+The meeting continued after Mr. Wilfred had left the meeting
+
+Outcome
+•	We decided to focus on an NGO that advocates for Down Syndrome patients or Sickle Cell Anemia patients
+
+Slack and WhatsApp conversation
+Emmanuella reached out to Omotola, the She Code Africa community manager, who directed her to a consultant who in turn connected her with an NGO that focuses on Sickle Cell Anemia patients. Unfortunately, the NGO was not disposed to provide help at that time.
+
+Key milestones so far
+•	The completion of the UI design after few iterations
+•	Aidryse logo and color guide
+•	Creation of a GitHub repository 
+•	Eventually got an NGO through Mr. Wilfred
+P.S: The UI design iteration; coming up with the name of the platform; the color guide; and the distribution of the webpages amongst the Frontend developers were all done on the WhatsApp group.
+Third Meeting (13th October 2022)
+We had a meeting with Mr. Wilfred and Mr. Udochukwu Egwim, the head of programs at South Saharan Social Development Organization (SSDO). Unfortunately, the projects that the NGO focuses on did not include advocacy for Down Syndrome patients or Sickle Cell Anemia patients.
+Agenda
+•	To figure out which area to focus on from the list of projects that SSDO works on.
+The meeting continued after Mr. Wilfred and Mr. Udochukwu left the Google meet call.
+Outcome
+•	We decided to focus on Gender-based domestic violence in line with the fact that the awareness for it is this month (October)
+WhatsApp discussion
+We were directed by Mr. Udochukwu to Mrs. Nkem Agu, the programs lead for good governance at SSDO. 
+Visiting SSDO Office
+On the 19th of October, we had a detailed conversation with Mrs. Nkem about the project at their Enugu office and she assured us of their commitment to work with us. The Herhive team was represented by Emmanuella and Onyinyechi.
+
+Key milestones so far
+The website Frontend is 60% done
+
+Fourth Meeting (19th October 2022)
+We informed the rest of the team of the outcome of the meeting with Mrs. Nkem. We equally deliberated on our next steps.
+
+Outcome
+•	We were asked to wait for a few days due to protocol, to receive the resources we needed from SSDO
+•	The team resolved to conduct a research to gather information that will be shared on the website especially for area concerning male victims
+
+Fifth Meeting (20th October 2022)
+We had a meeting with Fanny and Deborah concerning some areas in the project that we had issues trying to figure out from our discussion on the WhatsApp group.
+
+Key Milestones so Far
+•	We have been able to get the written contents
+•	We received some resources from SSDO
+•	We conducted a research because of our intention to cover all genders
+
+
+Key Milestones between 21st of October – 25th of October 2022
+•	We wrote and submitted the first draft of the content for GBV.
+•	We created the google form questionnaire for collecting stories.
+•	We converted the written content into audio files in English and Igbo.
+•	The user interface design was updated and modified based on the content received so far.
+•	We requested and received permission to use some content from SSDO blogs and also to use their contact information.
+
+P.S: WhatsApp discussions were going on while we were working on the website and on issues we encountered in real-time.
+
+Sixth meeting (27th October 2022)
+We had a check-up call on google meet to know how far each of us had gone, and if there were any major issues.
+
+Key Milestones between 26th of October – 28th of October 2022
+•	The website was updated with the most recent changes
+•	We all pushed our code to the GitHub repository for the project
+•	We converted the written content to Hausa
+•	Updated the audio content with the new audio deliverables
+•	Linked the data received from the contact page to the recipient email
+•	We checked for bugs with what we have done so far on the website and fixed them
+•	Currently working on the video demo
+•	The product/technical documentation was completed
+
+Key Milestones between 29th of October – 30th of October 2022
+•	Finished working on the video demo
+•	Completed the video demo
+•	Updated the readme file on GitHub
+•	Updated the website
+•	Push the updated code on GitHub
+•	We did the QR code after hosting the website.
+ 
+Our Experience 
+This was our first experience working with an NGO, a team, mentors, and the open source community. Working together on the project gave us a chance not only to understand but to learn more about gender based violence. The experience for each of us was fun and also a good one especially the fact that we always carried each other along and the team work was top notch.Despite some challenges we had, we all thought this was a great learning process that we had ever had in our lives.
+
+Lessons learnt
+The lessons we learned from this hackfest range from being able to collaborate with people from various tech fields who have varying knowledge of technologies, to being able to work with time, learning more ways to use github other than pushing codes and cloning a repo, learning new technologies and working with them, and being able to think effectively and efficiently.
+
+Things we improved on
+Time management: this was much needed in our project due to the time restrictions and our busy schedules since all of us are all students preparing for exam.
+Teamwork: although teamwork came easily for us all but we all could admit that it was one of the things that improved for us.
+Organisation: this helped us become more productive, focused and efficient on our project. 
+
+
+
+
+
+
+
+
+
